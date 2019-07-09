@@ -1,0 +1,85 @@
+$primary: #000;
+$primaryDark: #ddd;
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.logo,
+.ant-layout-header {
+  background: $primary;
+}
+
+.ant-layout-header {
+  box-shadow: 0 2px 3px 0px #00000008;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+  position: relative;
+  z-index: 1000;
+  padding: 0 20px;
+
+  .ant-menu-item {
+    background-color: $primary;
+  }
+
+  input {
+    background-color: $primaryDark;
+    border-color: #0000001a;
+    border-width: 2px;
+  }
+}
+
+.ant-layout {
+  background: transparent;
+
+  &-sider {
+    box-shadow: 0 2px 3px 0px #00000008;
+    border-right: 1px solid $primaryDark;
+
+    .logo {
+      box-shadow: 0 2px 3px 0px #00000008;
+      border-bottom: 1px solid #ddd;
+      position: relative;
+      z-index: 1000;
+      height: 64px;
+      line-height: 64px;
+      padding: 0 24px;
+      font-weight: bold;
+      font-size: 35px;
+    }
+  }
+}
+
+.ant-layout-sider-light .ant-layout-sider-zero-width-trigger {
+  border: 1px solid #ddd;
+}
+
+.ant-layout-sider {
+  .ant-menu-item {
+    border-bottom: 1px solid #eee;
+    line-height: 37px;
+    height: 45px;
+  }
+}
+
+.fk-logo {
+  height: 133px;
+  margin-left: -34px;
+  margin-top: -40px;
+}
+.ant-form {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.logo-new {
+  height: 226px;
+  max-width: initial;
+}
+.toolbar {
+  overflow: hidden;
+}
+.ant-card {
+  min-width: 600px;
+}

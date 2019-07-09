@@ -1,0 +1,68 @@
+{
+  "env": {
+    "development": {
+      "presets": ["next/babel", "@zeit/next-typescript/babel"],
+      "plugins": [
+        [
+          "import",
+          {
+            "libraryName": "antd",
+            "style": "css"
+          }
+        ],
+        [
+          "module-resolver",
+          {
+            "alias": {
+              "react-native": "react-native-web"
+            }
+          }
+        ]
+      ]
+    },
+    "production": {
+      "presets": ["next/babel", "@zeit/next-typescript/babel"],
+      "plugins": [
+        [
+          "import",
+          {
+            "libraryName": "antd",
+            "style": "css"
+          }
+        ],
+        [
+          "module-resolver",
+          {
+            "alias": {
+              "react-native": "react-native-web"
+            }
+          }
+        ]
+      ]
+    },
+    "test": {
+      "presets": [
+        ["env", { "modules": "commonjs" }],
+        "next/babel",
+        "@zeit/next-typescript/babel"
+      ],
+      "plugins": [
+        [
+          "import",
+          {
+            "libraryName": "antd",
+            "style": "css"
+          }
+        ],
+        [
+          "module-resolver",
+          {
+            "alias": {
+              "react-native": "react-native-web"
+            }
+          }
+        ]
+      ]
+    }
+  }
+}

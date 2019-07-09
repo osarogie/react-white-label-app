@@ -1,0 +1,86 @@
+$tab-primary: #132539;
+
+.tab-div {
+  z-index: 20;
+  position: relative;
+
+  .tab {
+    // background-color: #f9f9f9;
+    // width: 100%;
+    padding: 10px;
+    // position: fixed;
+    z-index: 1000;
+    // bottom: 0;
+    // box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 9px -2px;
+    // float: left;
+  }
+  .ant-form-item-label {
+    font-size: 13px;
+    line-height: 25px;
+    color: #6e534a;
+  }
+  .content {
+    margin-bottom: 100px;
+  }
+  .inactive {
+    display: none;
+  }
+
+  .ant-form {
+    background-color: transparent;
+    display: block;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .ant-steps-dot .ant-steps-item-content {
+    width: 230px;
+  }
+
+  .ant-steps-vertical.ant-steps-small .ant-steps-item-title {
+    line-height: 24px;
+    font-size: 17px;
+  }
+
+  .ant-steps {
+    margin-top: 35px;
+  }
+
+  .ant-select-selection,
+  .ant-input,
+  .ant-input-number {
+    // border-color: $tab-primary;
+    border: solid 0.5px #9aa3aa;
+    background: #fff;
+    border-radius: 0;
+  }
+  .ant-input-number {
+    width: 100%;
+  }
+
+  .anticon,
+  .anticon-down,
+  .ant-select-arrow-icon {
+    color: $tab-primary;
+  }
+
+  .ant-btn-primary {
+    // background-color: $tab-primary !important;
+    padding: 0 30px;
+    border-radius: 20px !important;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-top: 20px;
+    min-width: 195.9px;
+    height: 48px;
+    margin-left: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .ant-steps-item-finish
+    > .ant-steps-item-content
+    > .ant-steps-item-title:after {
+    background-color: #c75b52;
+  }
+}
