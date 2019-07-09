@@ -3,7 +3,7 @@ const next = require('next')
 const { join } = require('path')
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
-const clientRoutes = require('./routes/client.routes.js')
+const clientRoutes = require('./app/routes/client.routes.js')
 const handle = app.getRequestHandler()
 const customRoutesHandler = clientRoutes.getRequestHandler(app)
 

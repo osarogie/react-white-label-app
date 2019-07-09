@@ -1,5 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document'
-import { AppRegistry } from 'react-native-web'
+import { AppRegistry } from 'react-native'
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage, req }) {
