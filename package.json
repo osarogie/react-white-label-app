@@ -22,7 +22,7 @@
     "imagemin-optipng": "^7.0.0",
     "isomorphic-unfetch": "^3.0.0",
     "localforage": "^1.7.3",
-    "next": "^7.0.2",
+    "next": "^9.3.2",
     "next-fonts": "^0.17.0",
     "next-offline": "^4.0.2",
     "next-optimized-images": "^2.3.3",
