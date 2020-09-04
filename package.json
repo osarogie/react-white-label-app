@@ -27,7 +27,7 @@
     "next-offline": "^4.0.2",
     "next-optimized-images": "^2.3.3",
     "next-routes": "^1.4.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "nprogress": "^0.2.0",
     "react": "16.8.0",
     "react-art": "^16.8.2",
